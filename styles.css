@@ -5,6 +5,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* section 1 */
+
 .section-1 {
     background-color: #1F2937;
     padding: 20px 100px;
@@ -77,4 +79,26 @@ a {
 
 .hero-img-container a{
     color: #CC9E50;   
+}
+
+/* section 2 */
+
+.test-div {
+    height: 100px;
+    background-color: #E5E7EB;
+}
+
+/* section 3 */
+
+/* section 4 */
+
+/* footer */
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #E5E7EB;
 }
