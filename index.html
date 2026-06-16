@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <section class="section-1">
         <div class="header">
-            <a href="#home">Header Logo</a>
+            <a class="header-logo" href="#home">Header Logo</a>
             <ul class="header-links">
                 <li><a href="#link-1">header link one</a></li>
                 <li><a href="#link-2">header link two</a></li>
@@ -18,16 +19,23 @@
             </ul>
         </div>
         <div class="hero-container">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is
-                lower contrast</p>
-            <button class="btn-sign-up">Sign up</button>
-            <img src="img/kelly-sikkema-sunflower-unsplash.jpg">
-            <p>Photo by <a
-                    href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly
-                    Sikkema</a> on <a
-                    href="https://unsplash.com/photos/yellow-sunflower-in-close-up-photography-YXWoEn5uOvg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </p>
+            <div class="hero-text-container">
+                <h1 class="hero-main-text">This website is awesome</h1>
+                <p class="hero-secondary-text">This website has some subtext that goes here under the main title. It's a
+                    smaller font and the color is
+                    lower contrast</p>
+                <button class="btn-sign-up">Sign up</button>
+            </div>
+            <div class="hero-img-container">
+                <img class="hero-img" src="img/kelly-sikkema-sunflower-unsplash.jpg"
+                    alt="a single sunflower before a blue and black background">
+                <p>Photo by <a
+                        href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly
+                        Sikkema</a> on <a
+                        href="https://unsplash.com/photos/yellow-sunflower-in-close-up-photography-YXWoEn5uOvg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </p>
+            </div>
+
         </div>
     </section>
 </body>
