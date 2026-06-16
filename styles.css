@@ -134,6 +134,35 @@ blockquote + p {
 
 /* section 4 */
 
+.section-4 {
+    padding: 40px 100px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 100px;
+    padding: 20px 40px;
+}
+
+.cta-container p {
+    margin: 0;
+}
+
+.cta-container p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta-container .btn-sign-up {
+    border: 2px solid #E5E7EB;
+}
+
 /* footer */
 footer {
     background-color: #1F2937;
